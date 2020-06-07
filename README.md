@@ -7,3 +7,7 @@ Description: Use Terraform to build an environment using server list in CSV File
 - network.tf - network resources
 - vm_instance.tf - vm instance resources including csvdecode function using a for loop
 - output.tf - contains output of the local admin pw for vm instance
+
+2.remote_state
+Description: Store Terraform state file in a remote location such as an Azure Storage Account rather than locally
+- main.tf - azure provider version and remote state configuration
