@@ -1,0 +1,4 @@
+﻿environment,release,server-name,common-name,publisher,offer,sku,version,vm-size,nic1-vlan-name,nic-name,ip1,ip1-allocation
+Dev,Terraform,wavm01,WebApp,MicrosoftWindowsServer,WindowsServer,2016-Datacenter,latest,Standard_B1ls,vnet1,wavm01-nic,10.0.0.8,Static
+Dev,Terraform,mwvm01,Middleware,MicrosoftWindowsServer,WindowsServer,2016-Datacenter,latest,Standard_B1ms,vnet1,mwvm01-nic,10.0.0.6,Static
+Dev,Terraform,dbvm01,Database,MicrosoftWindowsServer,WindowsServer,2016-Datacenter,latest,Standard_B2ms,vnet1,dbvm01-nic,10.0.0.11,Static
