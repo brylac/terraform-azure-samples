@@ -11,3 +11,8 @@ Description: Use Terraform to build an environment using server list in CSV File
 2.remote_state
 Description: Store Terraform state file in a remote location such as an Azure Storage Account rather than locally
 - main.tf - azure provider version and remote state configuration
+
+3.role_definition
+Description: Create a custom role using Terraform and assign it to a resource
+- main.tf - azure provider version and resource group
+- role-definition.tf - contains custom role configuration and assignment to resource
